@@ -1,0 +1,47 @@
+
+
+body{
+    margin: 0;
+    background-color: #F7ECDE;
+}
+
+h1{
+    font-family: "Pacifico", cursive;
+      font-weight: 700;
+  font-style: normal;
+  position: relative;
+  font-size: 2.9rem;
+  
+}
+h1::after{
+    content: '';
+    width: 250px;
+    height: 30%;
+    position: absolute;
+    bottom: 0;
+    left: 38%;
+    background-color: #FEC260;
+    z-index: -1;
+    transition: all 0.5s;
+}
+h1:hover h1::after{
+    content: '';
+    width: 215px;
+    height: 60%;
+    position: absolute;
+    bottom: 0;
+    left: 41%;
+    background-color: #FEC260;
+    z-index: -1;
+   
+}
+
+.fa-bookmark{
+    font-size: 30px;
+    margin: 0 10px;
+    color: green;
+}
+
+.form-control{
+    
+}
